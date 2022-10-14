@@ -1,0 +1,111 @@
+html,body{
+    font-family: sans-serif;
+}
+body{
+    margin: 0px auto;
+    max-width: 1000px;
+}
+h1{
+    margin: 0;
+}
+th{
+    color: rgb(56, 56, 56);
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 60px;
+}
+td{
+    border: 1px solid rgb(190,190,190);
+    padding: 0px 5px;
+}
+thead{
+    background-color: cadetblue;
+    line-height: 20px;
+}
+footer,header{
+    background-color: rgb(173, 216, 230);
+    padding: 0 20px;
+    color: white;
+    line-height: 100px;
+}
+header h1{
+    text-align: center;
+}
+footer{
+    line-height: 60px;
+}
+footer p{
+    text-align: center;
+    font-size: 18px;
+}
+#new-contact, #contact-display {
+    padding: 20px;
+}
+#new-contact {
+    background: #f4f4f4;
+}
+#new-contact h2{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+form{
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+div {
+    margin-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+}
+label {
+display: inline-block;
+width: 140px;
+text-align: right;
+margin-top: 5px;
+/* border: 1px solid black; */
+}
+.create-contacts{
+    margin-top: 25px;
+}
+.input-list-div{
+    display: flex;
+    margin-top: 25px;
+    /* border: 1px solid black; */
+}
+.input-list-div input{
+    margin-left: 30px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+
+.input-list-div input:focus{
+    outline: none;
+}
+.btn-div{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 35px;
+    
+}
+.create-link{
+    text-decoration: none;
+    color: white;
+}
+
+.create-contacts{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 50px;
+    border-radius: 3px;
+}
